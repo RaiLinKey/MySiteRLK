@@ -1,0 +1,33 @@
+body {
+	background-color: #303030;
+	color: #FFFFFF;
+	margin-left: 3%;
+	margin-right: 3%;
+	font-family: Arial, TimesNewRoman, sans-serif, serif;
+	}
+
+table {
+	border: 1px solid;
+	color: #000000;
+	background-color: #AAAAAA;
+}
+
+.hdr {
+	text-align: center;
+	vertical-align: middle;
+	background-color: #FFD700;
+	font-weight: bold;
+	padding: 8px;
+}
+
+.t {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.mf {
+	font-family: ;
+	font-size: 13px;
+	background-color: #F0E68C;
+	padding: 4px;
+}

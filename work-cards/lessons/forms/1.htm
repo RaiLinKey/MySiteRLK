@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html; charset = utf-8' />
+		<title>Homepage</title>
+		<link rel='stylesheet' type='text/css' href='css/style.css' />
+		<style type='text/css'>
+			
+			
+		</style>
+	</head>
+	<body>
+		<h1>Регистрационная форма</h1>
+		<form action='1.php' method='get'>
+			<table>
+				<tr>
+					<td width='100'>Ваше имя</td>
+					<td width='200'><input type='text' name='nm' value='Введите имя' size='35'></td>
+				</tr>
+				<tr>
+					<td>Введите пароль</td>
+					<td><input type='password' name='pass' size='35'></td>
+				</tr>
+				<tr>
+					<td>Ваш пол</td>
+					<td>
+						Муж <input type='radio' name='sex' value='м'>| Жен <input type='radio' name='sex' value='ж'>
+					</td>
+				</tr>
+				<tr>
+					<td>Ваш любимый фрукт</td>
+					<td>
+						<input type='checkbox' name='fruit' value='Апельсин'>Апельсин<br>
+						<input type='checkbox' name='fruit' checked value='Груша'>Груша<br>
+						<input type='checkbox' name='fruit' value='Яблоко'>Яблоко<br>
+						<input type='checkbox' name='fruit' value='Арбуз'>Арбуз
+					</td>
+				</tr>
+				<tr>
+					<td>Выберит фото</td>
+					<td><input type='file' name='foto'></td>
+				</tr>
+				<tr>
+					<td>Ваш город</td>
+					<td>
+						<select name='city' size='4' multiple>
+							<option value='Москва'>Москва</option>
+							<option value='Питер'>Питер</option>
+							<option value='Сочи'>Сочи</option>
+							<option value='ЕКБ'>ЕКБ</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Комментарий</td>
+					<td>
+						<textarea name='komment' rows='8' cols='37'>Введите сообщение</textarea>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+			<input type='reset' value='Очистить форму'>
+			<input type='submit' name='Отправить форму'>
+		</form>
+	</body>
+</html>

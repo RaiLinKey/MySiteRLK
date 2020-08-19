@@ -1,0 +1,139 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	width:100%;
+	height:100%;
+	background-color: #FFFFFF;
+	color: #202020;
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 38px;
+	box-sizing: border-box;
+	font-family: Arial, TimesNewRoman, sans-serif, serif;
+}
+
+header {
+	height: 50px;
+	background-color: #303030;
+	margin: 0px;
+}
+
+.hbs {
+	margin-right: 10%;
+}
+
+.header-button {
+	height: 50px;
+	width: 160px;
+	color: #FFF;
+	float: right;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    cursor: pointer;
+}
+
+.header-button:hover {
+	background-color: #676767;
+	transition: all .2s linear;
+	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+}
+
+#bloks {
+	display: flex;
+	min-height: calc(100% - 50px);
+	flex-direction: row;
+	flex-grow: 1;
+}
+
+.sidebar, .content {
+}
+
+.sidebar {
+	margin-left: 10%;
+	margin-right: 0;
+	background-color: #EEE;
+	min-height: calc(100% - 50px);
+	width: 350px;
+}
+
+.menu {
+	margin-top: 30px;
+	margin-left: 24px;
+}
+
+.content {
+	
+	margin-right: 10%;
+	min-height: calc(100% - 50px);
+}
+
+.text {
+	margin-top: 30px;
+}
+
+footer {
+	margin: 0;
+	padding: 12px 0;
+	background-color: #333;
+	bottom: 0;
+	width: 100%;
+}
+
+.copy {
+	margin: 0;
+	color: #FFF;
+	font-size: 12px;
+	text-align: center;
+}
+
+li {
+	font-size: 14pt;
+	font-style: bold;
+	margin-bottom: 7pt;
+	margin-top: 7pt;
+	}
+
+ul ul li {
+	font-size: 12pt;
+	font-style: normal;
+	margin-bottom: 3pt;
+	margin-top: 0pt;
+	}
+
+ul {
+	list-style-type: none;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0;
+	}
+
+ul ul {
+	margin-left: 8px;
+	padding-left: 8px;
+	}
+
+ul li a {
+	color: #444;
+	text-decoration: none;
+	transition: all .2s linear;
+	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	}
+
+ul li a:hover {
+	background-color: #404040;
+	color: #FFFFFF;
+	transition: all .2s linear;
+	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	}

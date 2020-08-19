@@ -1,0 +1,33 @@
+body {
+	background-color: #303030;
+	color: #FFFFFF;
+	font-family: Arial, TimesNewRoman, sans-serif, serif;
+	}
+
+table {
+	border: 1px solid #FFFFFF;
+}
+
+#gt {
+	width: 80%;
+	min-height: 700px;
+}
+
+#hdr {
+	padding: 25px;
+}
+
+#menu {
+	width: 25%;
+	height: 100%;
+}
+
+#cont {
+	width: 75%;
+}
+
+#footer p{
+	color: #505050;
+	font-size: 12px;
+	text-align: center;
+}
